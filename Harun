@@ -1,0 +1,16 @@
+
+package javaapplication29;
+
+
+public class NewClass1 {
+    
+    public static void main(String[] args) {
+        
+   String octal="65";
+   Integer decimal=Integer.parseInt(octal,8);
+        System.out.println(decimal);
+   
+        
+    }
+    
+}
